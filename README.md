@@ -73,7 +73,8 @@ The three stages identified were:
 
 ### Connection Established
 
-```
+The TCP three-way handshake successfully established communication between the client and server.
+
 
 ### Skills Demonstrated
 
