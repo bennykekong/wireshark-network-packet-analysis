@@ -154,8 +154,17 @@ Sensitive credentials and potentially identifying information are redacted from 
 
 ## 📸 Project Screenshots
 
-Sanitized screenshots will be stored in the `screenshots/` directory.
+### 1. HTTP Credential Exposure Analysis
+![HTTP Credential Exposure](01-http-credential-exposure-sanitized.png)
 
+### 2. TCP Three-Way Handshake
+![TCP Three-Way Handshake](02-tcp-three-way-handshake.png)
+
+### 3. TCP ACK Packet Details
+![TCP ACK Packet Details](03-tcp-ack-packet-details.png)
+
+### 4. DNS Response Analysis
+![DNS Response Analysis](04-dns-response-analysis.png)
 ---
 
 ## 📄 Project Documentation
