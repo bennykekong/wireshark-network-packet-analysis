@@ -1,6 +1,7 @@
 # Wireshark Network Packet Analysis
 
 ## 🔎 Project Overview
+---
 
 This project demonstrates hands-on network traffic analysis using Wireshark.
 
@@ -70,15 +71,102 @@ The three stages identified were:
 | SYN-ACK | 235 | Server | Client | 443 |
 | ACK | 236 | Client | Server | 443 |
 
-### TCP Connection Flow
+### Connection Established
 
-```text
-Client                       Server
-   |                           |
-   | -------- SYN -----------> |
-   |                           |
-   | <------ SYN-ACK --------- |
-   |                           |
-   | -------- ACK -----------> |
-   |                           |
-   |     Connection Established
+```
+
+### Skills Demonstrated
+
+- TCP flag analysis
+- Source and destination IP analysis
+- Port identification
+- Sequence and acknowledgement analysis
+- Connection establishment investigation
+
+---
+
+## 🌐 3. DNS Response Analysis
+
+DNS traffic was inspected to identify a response containing an IPv4 address.
+
+### Activities Performed
+
+- Located DNS traffic in the packet capture
+- Inspected DNS response packets
+- Reviewed query and answer sections
+- Identified returned IPv4 information
+- Examined DNS protocol fields in Wireshark
+
+This exercise demonstrated how DNS translates domain names into IP addresses and how analysts can inspect DNS traffic during security investigations.
+
+---
+
+## 🔍 Packet Analysis Techniques
+
+During this project I worked with:
+
+- Packet list pane
+- Packet details pane
+- Packet bytes pane
+- Source and destination addresses
+- TCP flags
+- Source and destination ports
+- DNS queries and responses
+- Frame numbers
+- Protocol identification
+- Packet filtering
+
+---
+
+## 🛡️ Security Observations
+
+- Unencrypted traffic can expose sensitive information
+- Packet inspection can reveal authentication data
+- TCP connection behavior can assist in incident investigations
+- DNS traffic can provide useful indicators during threat investigations
+- Wireshark provides detailed visibility into network communications
+
+---
+
+## 🧠 Skills Demonstrated
+
+- Wireshark
+- Network Traffic Analysis
+- Packet Inspection
+- TCP/IP Analysis
+- DNS Analysis
+- HTTP Traffic Analysis
+- Network Security
+- Protocol Analysis
+- Incident Investigation
+- Cybersecurity Troubleshooting
+
+---
+
+## ⚠️ Lab Environment
+
+This project was completed in a controlled cybersecurity lab environment using sample network traffic.
+
+Sensitive credentials and potentially identifying information are redacted from public screenshots.
+
+---
+
+## 📸 Project Screenshots
+
+Sanitized screenshots will be stored in the `screenshots/` directory.
+
+---
+
+## 📄 Project Documentation
+
+Supporting project documentation will be stored in the `documentation/` directory.
+
+---
+
+## 👨‍💻 Author
+
+**Benard Obi Kekong**
+
+Cybersecurity Analyst | CompTIA Security+ | SOC & GRC | Microsoft Sentinel | SIEM | Python
+
+
